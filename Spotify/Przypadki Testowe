@@ -53,13 +53,13 @@ Cel testu: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
 Warunki wstępne: Użytkownik posiada adres e-mail (test123@test12345.pl), posiada hasło(Test123!), posiada nazwę (Test), datę urodzenia (01.01.1990), określa płeć (Nie chcę podawać), Akceptuję Warunki korzystania z serwisu Spotify.
 
 Akcja:
-Krok 1: Otwórz przeglądarke Google Chrome				        	               Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
-Krok 2: Wejdź na stronę https://www.spotify.com/pl/		               	Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
-Krok 3: Kliknij 'Zarejestruj się'						                             	Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych z warunków 
-wstępnych i zaakceptuj warunki korzystania z serwisu Spotify		       Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
-Krok 5: Kliknij Captche								                		                    Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Kliknij 'Zarejestruj się'							                             Oczekiwany rezultat: Użytkownik został zarejestrowany i zalogowany na utworzone konto
+wstępnych i zaakceptuj warunki korzystania z serwisu Spotify         Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
+Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik został zarejestrowany i zalogowany na utworzone konto
     
 Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
 
@@ -77,13 +77,13 @@ Cel testu: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
 Warunki wstępne: Użytkownik posiada adres e-mail (test123@test12345.pl), posiada hasło(Test123!), posiada nazwę (Test), datę urodzenia (30.02.1990), określa płeć (Nie chcę podawać)
 
 Akcja:
-Krok 1: Otwórz przeglądarke Google Chrome				                       	Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
-Krok 2: Wejdź na stronę https://www.spotify.com/pl/			               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
-Krok 3: Kliknij 'Zarejestruj się'						                        	     Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych z warunków 
-wstępnych i zaakceptuj warunki korzystania z serwisu Spotify				    	Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
-Krok 5: Kliknij Captche										                                    Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Kliknij 'Zarejestruj się'							                             Oczekiwany rezultat: Strona wyrzuci błąd o niepoprawnej dacie urodzenia 
+wstępnych i zaakceptuj warunki korzystania z serwisu Spotify         Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
+Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuci błąd o niepoprawnej dacie urodzenia 
 
 Warunek wyjściowy: Konto nie zostało utworzone, ponieważ użytkownik podał złą date urodzenia (Luty nie może mieć 30 dni)
 
@@ -101,10 +101,10 @@ System i przeglądarka: Windows 10 / Google Chrome
 Cel testu: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
 
 Akcja:
-Krok 1: Otwórz przeglądarke Google Chrome				              	Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
-Krok 2: Wejdź na stronę https://www.spotify.com/pl/			      Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
-Krok 3: Kliknij 'Zarejestruj się'							                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
-Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'		         		Oczekiwany rezultat: Strona wyrzuci błędy z powodu niewypełnienia wymaganych pól
+Krok 1: Otwórz przeglądarke Google Chrome                   Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/         Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                           Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezultat: Strona wyrzuci błędy z powodu niewypełnienia wymaganych pól
 
 
 Warunek wyjściowy: Konto nie zostało utworzone, ponieważ użytkownik nie wypełnił wymaganych pól
@@ -122,8 +122,8 @@ Cel testu: Sprawdzenie widoczności strony 'Polityka prywatności'
 
 Warunki wstępne: Strona Polityka prywatności' istnieje
 
-Krok 1: Otwórz przeglądarke Google Chrome				                    	Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
-Krok 2: Wejdź na stronę https://www.spotify.com/pl/			            Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 1: Otwórz przeglądarke Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Użytkownik zostaje przeniesiony na strone https://www.spotify.com/pl/legal/privacy-policy/
 
 Warunek wyjściowy: Strona Polityka prywatności' zostaje wyświetlona
@@ -141,8 +141,8 @@ Cel testu: Sprawdzenie widoczności strony 'Polityka prywatności'
 
 Warunki wstępne: Strona Polityka prywatności' istnieje
 
-Krok 1: Otwórz przeglądarke Google Chrome					                    Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
-Krok 2: Wejdź na stronę https://www.spotify.com/pl/			            Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 1: Otwórz przeglądarke Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Kliknięcie 'Polityka prywatności' przez użytkownika nie uruchamia żadnej czynności
 
 Warunek wyjściowy: Użytkownik pozostaje na stronie startowej
