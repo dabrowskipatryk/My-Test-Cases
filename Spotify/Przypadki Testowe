@@ -1,6 +1,6 @@
 Test #01 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
-Nazwa: Rejestracja konta na Spotify przez Facebooka (Przypadek pozytywny)
+Nazwa: Rejestracja konta na Spotify za pomocą Facebooka (Przypadek pozytywny)
 
 System i przeglądarka: Windows 10 / Google Chrome
 
@@ -15,7 +15,7 @@ Krok 3: Kliknij 'Zarejestruj się'                              	Oczekiwany rezu
 Krok 4: Kliknij 'Zarejestruj się przez Facebooka'               Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Facebooka w celu potwierdzenia rejestracji
 Krok 5: Potwierdź rejestrację przez Facebooka                   Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Spotify i został zarejestrowany oraz zalogowany na utworzone konto
 
-Warunek końcowy: Konto zostało utworzone za pomocą Facebooka na stronie www.spotify.com/pl/ oraz użytkownik jest zalogowany
+Warunek końcowy: Konto zostało utworzone za pomocą Facebooka na stronie www.spotify.com/pl/ oraz użytkownik jest zalogowany na utworzonym koncie
 
 
 #################
@@ -50,14 +50,15 @@ System i przeglądarka: Windows 10 / Google Chrome
 
 Cel testu: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
 
-Warunki wstępne: Użytkownik posiada adres e-mail (test123@test12345.pl), posiada hasło(Test123!), posiada nazwę (Test), datę urodzenia (01.01.1990), określa płeć (Nie chcę podawać), Akceptuję Warunki korzystania z serwisu Spotify.
+Warunki wstępne: Użytkownik posiada adres e-mail (test123@test12345.pl), posiada hasło(Test123!), posiada nazwę (Test), 
+datę urodzenia (01.01.1990), określa płeć (Nie chcę podawać).
 
 Akcja:
 Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych z warunków 
-wstępnych i zaakceptuj warunki korzystania z serwisu Spotify         Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
+wstępnych i zaakceptuj warunki korzystania z serwisu Spotify         Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione i warunki korzystania z serwisu zaakceptowane
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
 Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik został zarejestrowany i zalogowany na utworzone konto
     
