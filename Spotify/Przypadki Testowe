@@ -9,7 +9,7 @@ Cel testu: Założenie konta na platformie 'Spotify' za pomocą Facebooka
 Warunki wstępne: Użytkownik jest zalogowany na istniejącym i aktywnym koncie na Facebooku
 
 Akcja:
-Krok 1: Otwórz przeglądarke Google Chrome	                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarke Google Chrome                       Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/             Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                              	Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Kliknij 'Zarejestruj się przez Facebooka'               Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Facebooka w celu potwierdzenia rejestracji
