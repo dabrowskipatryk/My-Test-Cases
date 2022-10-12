@@ -39,6 +39,7 @@ Krok 4: Kliknij 'Zarejestruj się przez Facebooka'              Oczekiwany rezul
 
 Warunek wyjściowy: Konto nie zostało utworzone, ponieważ użytkownik nie zostaje przeniesiony na stronę Facebooka w celu rejestracji
 
+
 #################
 
 
@@ -63,6 +64,7 @@ Krok 5: Kliknij Captche                                              Oczekiwany 
 Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik został zarejestrowany i zalogowany na utworzone konto
     
 Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
+
 
 #################
 
@@ -110,6 +112,7 @@ Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezul
 
 Warunek wyjściowy: Konto nie zostało utworzone, ponieważ użytkownik nie wypełnił wymaganych pól
 
+
 #################
 
 
@@ -129,6 +132,7 @@ Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany
 
 Warunek wyjściowy: Strona Polityka prywatności' zostaje wyświetlona
 
+
 #################
 
 
@@ -147,3 +151,5 @@ Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany r
 Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Kliknięcie 'Polityka prywatności' przez użytkownika nie uruchamia żadnej czynności
 
 Warunek wyjściowy: Użytkownik pozostaje na stronie startowej
+
+
