@@ -150,4 +150,4 @@ Krok 1: Otwórz przeglądarke Google Chrome                         Oczekiwany r
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Kliknięcie 'Polityka prywatności' przez użytkownika nie uruchamia żadnej czynności
 
-Warunek wyjściowy: Przycisk 'Polityka prywatności' nie działa poprawnie
+Warunek wyjściowy: Przycisk 'Polityka prywatności' nie działa poprawnie (nie uruchamia żadnej czynności)
