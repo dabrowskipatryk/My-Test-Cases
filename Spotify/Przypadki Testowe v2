@@ -21,12 +21,11 @@ Warunek końcowy: Konto zostało utworzone za pomocą Facebooka na stronie www.s
  
 Test #02 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
-Nazwa: Założenie konta na platformie 'Spotify' za pomocą Facebooka
+Nazwa: Niemożliwe założenie konta na platformie 'Spotify' za pomocą Facebooka
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
-Warunki wstępne: Użytkownik jest zalogowany na istniejącym i aktywnym koncie na Facebook'u, API Spotify-Facebook działa poprawnie,
-połączenie z internetem działa poprawnie
+Warunki wstępne: Użytkownik jest zalogowany na istniejącym i aktywnym koncie na Facebook'u, niedziałające API Spotify-Facebook 
 
 Kroki:
 Krok 1: Otwórz przeglądarke Google Chrome                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
