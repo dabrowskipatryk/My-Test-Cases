@@ -37,9 +37,31 @@ Warunek wyjściowy: Użytkownik nie zostaje przeniesiony na stronę Facebooka w 
 
 
 #################
-
+ 
 
 Test #03 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+
+Nazwa: Niemożliwe założenie konta na platformie 'Spotify' za pomocą Facebooka
+
+System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
+
+Warunki wstępne: Użytkownik posiada nieaktywne konto na Facebook'u
+
+Kroki:
+Krok 1: Otwórz przeglądarke Google Chrome                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/            Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                              Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 4: Kliknij 'Zarejestruj się przez Facebooka'              Oczekiwany rezultat: Użytkownik nie zostaje przeniesiony na stronę Facebooka
+Krok 5: Potwierdź rejestrację przez Facebooka                  Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Spotify i otrzymał informację, że konto 
+                                                               nie zostało utworzone z powodu nieaktywnego konta na Facebooku
+
+Warunek wyjściowy: Konto nie zostało utworzone, użytkownik powraca do formularza rejestracji na stronie Spotify
+
+
+#################
+ 
+ 
+Test #04 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
 
@@ -68,7 +90,7 @@ Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
 #################
 
 
-Test #04 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #05 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 
@@ -97,7 +119,7 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu
 #################
 
 
-Test #05 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #06 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 
 Nazwa: Sprawdzenie czy strona poprawnie odczyta błędne dane 
@@ -117,7 +139,7 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu
 #################
 
 
-Test #06 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #07 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie widoczności strony 'Polityka prywatności'
 
@@ -136,7 +158,7 @@ Warunek wyjściowy: Strona 'Polityka prywatności' zostaje wyświetlona
 #################
 
 
-Test #07 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #08 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie działania przycisku 'Polityka prywatności' ze stopki
 
