@@ -119,7 +119,36 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu
 #################
 
 
-Test #06 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #06 	Data 20.10.2022 	Sporządził Patryk Dąbrowski
+
+Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
+
+System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
+
+Warunki wstępne: Użytkownik posiada adres e-mail 
+Dane testowe: 
+e-mail: test123@test12345.pl
+hasło: Test123!
+nazwa: Test
+data urodzenia: 01.01.2023
+płeć: Nie chcę podawać
+Akceptuję Warunki korzystania z serwisu Spotify: Tak
+
+Kroki:
+Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione 
+Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuci błąd o niepoprawnej dacie urodzenia 
+
+Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu podania niepoprawnych danych (użytkownik spełnia wymagań wiekowych)
+
+
+#################
+
+
+Test #07 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 
 Nazwa: Sprawdzenie czy strona poprawnie odczyta błędne dane 
@@ -139,7 +168,7 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu
 #################
 
 
-Test #07 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #08 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie widoczności strony 'Polityka prywatności'
 
@@ -158,7 +187,7 @@ Warunek wyjściowy: Strona 'Polityka prywatności' zostaje wyświetlona
 #################
 
 
-Test #08 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #09 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie działania przycisku 'Polityka prywatności' ze stopki
 
