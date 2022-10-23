@@ -76,6 +76,8 @@ Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezul
 
 
 Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu podania niepoprawnych danych (brak wypełnienia wymaganych pól)
+
+
 #################
  
  
