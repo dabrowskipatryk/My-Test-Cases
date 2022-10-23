@@ -59,9 +59,27 @@ Warunek wyjściowy: Konto nie zostało utworzone, użytkownik powraca do formula
 
 
 #################
- 
- 
+
+
 Test #04 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+
+
+Nazwa: Sprawdzenie czy strona poprawnie odczyta błędne dane 
+
+System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
+
+Kroki:
+Krok 1: Otwórz przeglądarke Google Chrome                   Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/         Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                           Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezultat: Strona wyrzuci błędy z powodu niewypełnienia wymaganych pól
+
+
+Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu podania niepoprawnych danych (brak wypełnienia wymaganych pól)
+#################
+ 
+ 
+Test #05 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
 
@@ -90,7 +108,7 @@ Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
 #################
 
 
-Test #05 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #06 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 
@@ -119,7 +137,7 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu
 #################
 
 
-Test #06 	Data 20.10.2022 	Sporządził Patryk Dąbrowski
+Test #07 	Data 20.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 
@@ -148,7 +166,7 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu
 #################
 
 
-Test #07 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
+Test #08 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 
@@ -177,7 +195,7 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd o niezaa
 #################
 
 
-Test #08 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
+Test #09 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 
@@ -202,25 +220,6 @@ Krok 5: Kliknij Captche                                              Oczekiwany 
 Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuci błąd o różniących się adresach e-mail
 
 Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd o podaniu różnych adresów e-mail (drugi adres e-mail nie jest taki sam jak pierwszy)
-
-#################
-
-
-Test #09 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
-
-
-Nazwa: Sprawdzenie czy strona poprawnie odczyta błędne dane 
-
-System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
-
-Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                   Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
-Krok 2: Wejdź na stronę https://www.spotify.com/pl/         Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
-Krok 3: Kliknij 'Zarejestruj się'                           Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
-Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezultat: Strona wyrzuci błędy z powodu niewypełnienia wymaganych pól
-
-
-Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu podania niepoprawnych danych (brak wypełnienia wymaganych pól)
 
 
 #################
