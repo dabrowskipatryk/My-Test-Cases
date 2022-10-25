@@ -7,7 +7,7 @@ System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 Warunki wstępne: Użytkownik jest zalogowany na istniejącym i aktywnym koncie na Facebooku
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                       Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                       Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/             Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                              	Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Kliknij 'Zarejestruj się przez Facebooka'               Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Facebooka w celu potwierdzenia rejestracji
@@ -28,7 +28,7 @@ System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 Warunki wstępne: Użytkownik jest zalogowany na istniejącym i aktywnym koncie na Facebook'u, niedziałające API Spotify-Facebook 
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/            Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                              Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Kliknij 'Zarejestruj się przez Facebooka'              Oczekiwany rezultat: Użytkownik nie zostaje przeniesiony na stronę Facebooka
@@ -48,7 +48,7 @@ System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 Warunki wstępne: Użytkownik posiada nieaktywne konto na Facebook'u
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/            Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                              Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Kliknij 'Zarejestruj się przez Facebooka'              Oczekiwany rezultat: Użytkownik nie zostaje przeniesiony na stronę Facebooka
@@ -69,7 +69,7 @@ Nazwa: Sprawdzenie czy strona poprawnie odczyta błędne dane
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                   Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                   Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/         Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                           Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezultat: Strona wyrzuci błędy z powodu niewypełnienia wymaganych pól
@@ -97,7 +97,7 @@ płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
@@ -126,7 +126,7 @@ płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione 
@@ -155,7 +155,7 @@ płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione 
@@ -184,7 +184,7 @@ płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Nie
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione 
@@ -213,7 +213,7 @@ płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
@@ -243,7 +243,7 @@ płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
@@ -273,7 +273,7 @@ płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
@@ -296,7 +296,7 @@ System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 Warunki wstępne: Strona Polityka prywatności' istnieje
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Użytkownik zostaje przeniesiony na strone https://www.spotify.com/pl/legal/privacy-policy/
 
@@ -315,7 +315,7 @@ System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 Warunki wstępne: W stopce znajduje się przycisk 'Polityka prywatności' oraz strona 'Polityka prywatności' istnieje
 
 Kroki:
-Krok 1: Otwórz przeglądarke Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 1: Otwórz przeglądarkę Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Kliknięcie 'Polityka prywatności' przez użytkownika nie uruchamia żadnej czynności
 
