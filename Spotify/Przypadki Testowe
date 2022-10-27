@@ -317,7 +317,7 @@ Warunki wstępne: W stopce znajduje się przycisk 'Polityka prywatności' oraz s
 Kroki:
 Krok 1: Otwórz przeglądarkę Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
-Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Kliknięcie 'Polityka prywatności' przez użytkownika nie uruchamia żadnej czynności
+Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Kliknięcie przycisku 'Polityka prywatności' przez użytkownika nie uruchamia żadnej czynności
 
 Warunek wyjściowy: Przycisk 'Polityka prywatności' nie działa poprawnie (nie uruchamia żadnej czynności)
 
