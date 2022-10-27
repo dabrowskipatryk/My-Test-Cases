@@ -13,7 +13,7 @@ Step 3: Click 'Register'                                    	Expected result: Us
 Step 4: Click 'Register by Facebook'                          Expected result: The user was moved to the Facebook website to confirm registration
 Step 5: Confirm your registration by Facebook                 Expected result: The user was moved to the Spotify website and was registered and logged into the account created
 
-End condition: An account has been created by using Facebook at www.spotify.com/pl and the user is logged in to the account created
+End condition: An account has been created using Facebook on the Spotify platform and the user is logged in to the account created
 
 
 #################
@@ -86,6 +86,7 @@ Name: Create an account on the 'Spotify' platform using your email address
 System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 
 Prerequisites: The user has an e-mail address 
+
 Test data: 
 Email: test123@test12345.pl
 password: Test123!
@@ -114,6 +115,7 @@ Name: Checking that the website reads the wrong data correctly
 System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 
 Prerequisites: User has an e-mail address 
+
 Test data: 
 E-mail: test123@test12345.pl
 password: Test123!
@@ -130,7 +132,7 @@ Step 4: Fill in the required fields using test data           Expected result: A
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
 Step 6: Click 'Register'                                      Expected result: An error about an invalid date of birth will be returned 
 
-End condition: Account not created, page returns error due to incorrect data (February cannot be 30 days old)
+End condition: Account not created, page returns error due to incorrect data (February cannot have 30 days)
 
 
 #################
