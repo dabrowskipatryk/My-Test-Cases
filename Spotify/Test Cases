@@ -1,6 +1,6 @@
 Test #01 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
 
-Name: Creating an account on the 'Spotify' platform using Facebook
+Name: Creating an account on the Spotify platform using Facebook
 
 System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 
@@ -21,7 +21,7 @@ End condition: An account has been created using Facebook on the Spotify platfor
 
 Test #02 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
 
-Name: Unable to create an account on the 'Spotify' platform using Facebook
+Name: Unable to create an account on the Spotify platform using Facebook
 
 System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 
@@ -41,7 +41,7 @@ End condition: The user is not taken to the Facebook page to register - the acco
 
 Test #03 	Date 20.10.2022 	Compiled by Patryk Dąbrowski
 
-Name: Unable to create an account on the 'Spotify' platform using Facebook
+Name: Unable to create an account on the Spotify platform using Facebook
 
 System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 
@@ -81,7 +81,7 @@ End condition: The account has not been created, the page returns an error due t
 
 Test #05 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
 
-Name: Create an account on the 'Spotify' platform using your email address
+Name: Create an account on the Spotify platform using your email address
 
 System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 
