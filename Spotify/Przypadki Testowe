@@ -1,6 +1,6 @@
 Test #01 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
-Nazwa: Założenie konta na platformie 'Spotify' za pomocą Facebooka
+Nazwa: Założenie konta na platformie Spotify za pomocą Facebooka
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
@@ -21,7 +21,7 @@ Warunek końcowy: Konto zostało utworzone za pomocą Facebooka na platformie Sp
  
 Test #02 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
-Nazwa: Niemożliwe założenie konta na platformie 'Spotify' za pomocą Facebooka
+Nazwa: Niemożliwe założenie konta na platformie Spotify za pomocą Facebooka
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
@@ -41,7 +41,7 @@ Warunek wyjściowy: Użytkownik nie zostaje przeniesiony na stronę Facebooka w 
 
 Test #03 	Data 20.10.2022 	Sporządził Patryk Dąbrowski
 
-Nazwa: Niemożliwe założenie konta na platformie 'Spotify' za pomocą Facebooka
+Nazwa: Niemożliwe założenie konta na platformie Spotify za pomocą Facebooka
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
@@ -85,7 +85,7 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd z powodu 
  
 Test #05 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
-Nazwa: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
+Nazwa: Założenie konta na platformie Spotify za pomocą adresu e-mail
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
