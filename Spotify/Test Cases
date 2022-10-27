@@ -30,7 +30,7 @@ Prerequisites: User is logged into an existing and active Facebook account, Spot
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Click 'Register by Facebook'                          Expected result: The user is not redirected to the Facebook page
 
 End condition: The user is not taken to the Facebook page to register - the account is not created
@@ -50,7 +50,7 @@ Prerequisites: The user has an inactive Facebook account
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Click 'Register by Facebook'                          Expected result: The user was moved to the Facebook website to confirm registration
 Step 5: Confirm your registration by Facebook                 Expected result: The user was moved to the Spotify website and get information that the account not 
                                                               created due to inactive Facebook account
@@ -71,7 +71,7 @@ Prerequisites: Account registration page exists
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Scroll down and click 'Register'                      Expected result: An error will be returned due to the required fields not being completed
 
 End condition: The account has not been created, the page returns an error due to incorrect data (failure to fill in the required fields)
@@ -98,7 +98,7 @@ I accept Spotify's Terms of Use: Yes
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
 Step 6: Click 'Register'                                      Expected result: The user has been registered and logged into the account created
@@ -127,7 +127,7 @@ I accept Spotify's Terms of Use: Yes
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Zarejestruj się'                              	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
 Step 6: Click 'Register'                                      Expected result: An error about an invalid date of birth will be returned 
@@ -157,7 +157,7 @@ I accept Spotify's Terms of Use: Yes
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Zarejestruj się'                              	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
 Step 6: Click 'Register'                                      Expected result: An error about an invalid date of birth will be returned 
@@ -187,7 +187,7 @@ I accept Spotify's Terms of Use: No
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Zarejestruj się'                              	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
 Step 6: Click 'Register'                                      Expected result: An error about that you have not accepted the terms of use will be returned
@@ -217,7 +217,7 @@ I accept Spotify's Terms of Use: Yes
 Steps:
 Step 1: Open Google Chrome browser                                                Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                                         Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Zarejestruj się'                                                  	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                                          Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data                               Expected result: All required fields have been completed
 Step 5: Change the data in the Confirm your email field to: '123@123.pl'          Expected result: The Confirm your e-mail field has been updated with the new data
 Step 6: Click Captcha                                                             Expected result: Captcha has been accepted
@@ -248,7 +248,7 @@ I accept Spotify's Terms of Use: No
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Zarejestruj się'                              	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
 Step 6: Click 'Register'                                      Expected result: An error about an invalid email address format will be returned
