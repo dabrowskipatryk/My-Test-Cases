@@ -13,7 +13,7 @@ Krok 3: Kliknij 'Zarejestruj się'                              	Oczekiwany rezu
 Krok 4: Kliknij 'Zarejestruj się przez Facebooka'               Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Facebooka w celu potwierdzenia rejestracji
 Krok 5: Potwierdź rejestrację przez Facebooka                   Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Spotify i został zarejestrowany oraz zalogowany na utworzone konto
 
-Warunek końcowy: Konto  zostało utworzone za pomocą Facebooka na platformie Spotify oraz użytkownik jest zalogowany na utworzonym koncie
+Warunek końcowy: Konto zostało utworzone za pomocą Facebooka na platformie Spotify oraz użytkownik jest zalogowany na utworzonym koncie
 
 
 #################
