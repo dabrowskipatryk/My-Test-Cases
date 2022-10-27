@@ -13,7 +13,7 @@ Krok 3: Kliknij 'Zarejestruj się'                              	Oczekiwany rezu
 Krok 4: Kliknij 'Zarejestruj się przez Facebooka'               Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Facebooka w celu potwierdzenia rejestracji
 Krok 5: Potwierdź rejestrację przez Facebooka                   Oczekiwany rezultat: Użytkownik został przeniesiony na stronę Spotify i został zarejestrowany oraz zalogowany na utworzone konto
 
-Warunek końcowy: Konto zostało utworzone za pomocą Facebooka na stronie www.spotify.com/pl oraz użytkownik jest zalogowany na utworzonym koncie
+Warunek końcowy: Konto  zostało utworzone za pomocą Facebooka na platformie Spotify oraz użytkownik jest zalogowany na utworzonym koncie
 
 
 #################
@@ -45,7 +45,7 @@ Nazwa: Niemożliwe założenie konta na platformie 'Spotify' za pomocą Facebook
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
-Warunki wstępne: Użytkownik posiada nieaktywne konto na Facebook'u
+Warunki wstępne: Użytkownik posiada nieaktywne konto na Facebooku
 
 Kroki:
 Krok 1: Otwórz przeglądarkę Google Chrome                      Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
@@ -266,11 +266,41 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd o niepopr
 
 Test #11 	Data 27.10.2022 	Sporządził Patryk Dąbrowski
 
-Nazwa: Sprawdzenie czy strona rejestracji przekierowuje na strone logowania
+Nazwa: Sprawdzenie czy strona utworzy konto na istniejący adres e-mail
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
-Warunki wstępne: Użytkownik posiada konto zarejestrowane na adres e-mail test123@test12345
+Warunki wstępne: Użytkownik posiada konto na platformie Spotify zarejestrowane na adres e-mail test123@test12345.pl
+
+Dane testowe: 
+e-mail: test123@test12345.pl
+hasło: Test123!
+nazwa: Test
+data urodzenia: 01.01.1990
+płeć: Nie chcę podawać
+Akceptuję Warunki korzystania z serwisu Spotify: Tak
+
+Kroki:
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
+Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o istnieniu użytkownika i możliwości zalogowania
+
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca informację o istnieniu użytkownika i możliwości zalogowania
+
+
+#################
+
+
+Test #12 	Data 27.10.2022 	Sporządził Patryk Dąbrowski
+
+Nazwa: Sprawdzenie czy strona rejestracji przekierowuje na stronę logowania
+
+System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
+
+Warunki wstępne: Użytkownik posiada konto na platformie Spotify zarejestrowane na adres e-mail test123@test12345.pl
 
 Dane testowe: 
 e-mail: test123@test12345.pl
@@ -290,36 +320,6 @@ Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany
 Krok 7: Kliknij 'Zaloguj się' w informacji z błędem                  Oczekiwany rezultat: Użytkownik został przekierowany na stronę logowania
 
 Warunek wyjściowy: Użytkownik został przekierowany na stronę logowania
-
-
-#################
-
-
-Test #12 	Data 27.10.2022 	Sporządził Patryk Dąbrowski
-
-Nazwa: Sprawdzenie czy strona utworzyny konto na istniejący adres e-mail
-
-System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
-
-Warunki wstępne: Użytkownik posiada konto zarejestrowane na adres e-mail test123@test12345
-
-Dane testowe: 
-e-mail: test123@test12345.pl
-hasło: Test123!
-nazwa: Test
-data urodzenia: 01.01.1990
-płeć: Nie chcę podawać
-Akceptuję Warunki korzystania z serwisu Spotify: Tak
-
-Kroki:
-Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
-Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
-Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
-Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
-Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o istnieniu użytkownika i możliwości zalogowania
-
-Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca informację o istnieniu użytkownika i możliwości zalogowania
 
 
 #################
@@ -349,7 +349,7 @@ Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwa
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
 Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o niepoprawnym formacie adresu e-mail 
 
-Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd o niepoprawnym formacie adresu e-mail (adres zawiera chińskie znaki)
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd o niepoprawnym formacie adresu e-mail (adres e-mail zawiera chińskie znaki)
 
 
 #################
