@@ -88,7 +88,7 @@ System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 Prerequisites: The user has an e-mail address 
 
 Test data: 
-Email: test123@test12345.pl
+e-mail: test123@test12345.pl
 password: Test123!
 name: Test
 date of birth: 01.01.1990
@@ -117,7 +117,7 @@ System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 Prerequisites: User has an e-mail address 
 
 Test data: 
-E-mail: test123@test12345.pl
+e-mail: test123@test12345.pl
 password: Test123!
 name: Test
 date of birth: 30.02.1990
@@ -147,7 +147,7 @@ System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 Prerequisites: User has an e-mail address 
 
 Test data: 
-E-mail: test123@test12345.pl
+e-mail: test123@test12345.pl
 password: Test123!
 name: Test
 date of birth: 01.01.2023
@@ -177,7 +177,7 @@ System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 Prerequisites: User has an e-mail address 
 
 Test data: 
-E-mail: test123@test12345.pl
+e-mail: test123@test12345.pl
 password: Test123!
 name: Test
 date of birth: 01.01.1990
@@ -207,7 +207,7 @@ System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 Prerequisites: User has an e-mail address 
 
 Test data: 
-E-mail: test123@test12345.pl
+e-mail: test123@test12345.pl
 password: Test123!
 name: Test
 date of birth: 01.01.1990
@@ -221,7 +221,7 @@ Step 3: Click 'Register'                                                        
 Step 4: Fill in the required fields using test data                               Expected result: All required fields have been completed
 Step 5: Change the data in the Confirm your email field to: '123@123.pl'          Expected result: The Confirm your e-mail field has been updated with the new data
 Step 6: Click Captcha                                                             Expected result: Captcha has been accepted
-Step 7: Click 'Register'                                                          Expected result: An error about different email addresses will be returned
+Step 7: Click 'Register'                                                          Expected result: An error about different e-mail addresses will be returned
             
 End condition: The account has not been created, the page returns an error about different e-mail addresses (the second e-mail address is not the same as the first)
 
@@ -238,7 +238,7 @@ System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 Prerequisites: User has an e-mail address 
 
 Test data: 
-E-mail: test123@test12345
+e-mail: test123@test12345
 password: Test123!
 name: Test
 date of birth: 01.01.1990
@@ -251,9 +251,9 @@ Step 2: Go to https://www.spotify.com/pl/                     Expected result: U
 Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
-Step 6: Click 'Register'                                      Expected result: An error about an invalid email address format will be returned
+Step 6: Click 'Register'                                      Expected result: An error about an invalid e-mail address format will be returned
 
-End condition: Account not created, page returns error about invalid email address format
+End condition: Account not created, page returns error about invalid e-mail address format
 
 
 #################
