@@ -90,6 +90,7 @@ Nazwa: Założenie konta na platformie 'Spotify' za pomocą adresu e-mail
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345.pl
 hasło: Test123!
@@ -119,6 +120,7 @@ Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345.pl
 hasło: Test123!
@@ -148,6 +150,7 @@ Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345.pl
 hasło: Test123!
@@ -177,11 +180,12 @@ Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345.pl
 hasło: Test123!
 nazwa: Test
-data urodzenia: 01.01.2023
+data urodzenia: 01.01.1990
 płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Nie
 
@@ -206,11 +210,12 @@ Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345.pl
 hasło: Test123!
 nazwa: Test
-data urodzenia: 01.01.2023
+data urodzenia: 01.01.1990
 płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
@@ -236,11 +241,12 @@ Nazwa: Sprawdzenie czy strona odczyta błędne dane poprawnie
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345
 hasło: Test123!
 nazwa: Test
-data urodzenia: 01.01.2023
+data urodzenia: 01.01.1990
 płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
@@ -260,16 +266,78 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd o niepopr
 
 Test #11 	Data 27.10.2022 	Sporządził Patryk Dąbrowski
 
+Nazwa: Sprawdzenie czy strona rejestracji przekierowuje na strone logowania
+
+System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
+
+Warunki wstępne: Użytkownik posiada konto zarejestrowane na adres e-mail test123@test12345
+
+Dane testowe: 
+e-mail: test123@test12345.pl
+hasło: Test123!
+nazwa: Test
+data urodzenia: 01.01.1990
+płeć: Nie chcę podawać
+Akceptuję Warunki korzystania z serwisu Spotify: Tak
+
+Kroki:
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
+Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o istnieniu użytkownika i  możliwości zalogowania
+Krok 7: Kliknij 'Zaloguj się' w informacji z błędem                  Oczekiwany rezultat: Użytkownik został przekierowany na stronę logowania
+
+Warunek wyjściowy: Użytkownik został przekierowany na stronę logowania
+
+
+#################
+
+
+Test #12 	Data 27.10.2022 	Sporządził Patryk Dąbrowski
+
+Nazwa: Sprawdzenie czy strona utworzyny konto na istniejący adres e-mail
+
+System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
+
+Warunki wstępne: Użytkownik posiada konto zarejestrowane na adres e-mail test123@test12345
+
+Dane testowe: 
+e-mail: test123@test12345.pl
+hasło: Test123!
+nazwa: Test
+data urodzenia: 01.01.1990
+płeć: Nie chcę podawać
+Akceptuję Warunki korzystania z serwisu Spotify: Tak
+
+Kroki:
+Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
+Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
+Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
+Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
+Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o istnieniu użytkownika i możliwości zalogowania
+
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca informację o istnieniu użytkownika i możliwości zalogowania
+
+
+#################
+
+
+Test #13 	Data 27.10.2022 	Sporządził Patryk Dąbrowski
+
 Nazwa: Sprawdzenie czy pole e-mail w procesie rejestracji może zawierać inne znaki niż polskie
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail z niepolskimi znakami
+
 Dane testowe: 
 e-mail: 地地@test12345.pl
 hasło: Test123!
 nazwa: Test
-data urodzenia: 01.01.2023
+data urodzenia: 01.01.1990
 płeć: Nie chcę podawać
 Akceptuję Warunki korzystania z serwisu Spotify: Tak
 
@@ -287,13 +355,14 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd o niepopr
 #################
 
  
-Test #12 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
+Test #14 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie działania anulowanej Captchy
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345.pl
 hasło: Test123!
@@ -317,13 +386,14 @@ Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca informację o po
 #################
  
  
-Test #13 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
+Test #15 	Data 23.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie działania Captchy
 
 System i przeglądarka: Windows 10 / Google Chrome (106.0.5249.119)
 
 Warunki wstępne: Użytkownik posiada adres e-mail 
+
 Dane testowe: 
 e-mail: test123@test12345.pl
 hasło: Test123!
@@ -347,7 +417,7 @@ Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
 #################
 
 
-Test #14 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #16 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie widoczności strony 'Polityka prywatności'
 
@@ -366,7 +436,7 @@ Warunek wyjściowy: Strona 'Polityka prywatności' zostaje wyświetlona
 #################
 
 
-Test #15 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
+Test #17 	Data 11.10.2022 	Sporządził Patryk Dąbrowski
 
 Nazwa: Sprawdzenie działania przycisku 'Polityka prywatności' ze stopki
 
