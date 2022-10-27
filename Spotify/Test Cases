@@ -1,1 +1,137 @@
+Test #01 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Creating an account on the 'Spotify' platform using Facebook
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: The user is logged in with an existing and active Facebook account
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Click 'Register by Facebook'                          Expected result: The user was moved to the Facebook website to confirm registration
+Step 5: Confirm your registration by Facebook                 Expected result: The user was moved to the Spotify website and was registered and logged into the account created
+
+End condition: An account has been created by using Facebook at www.spotify.com/pl and the user is logged in to the account created
+
+
+#################
+
+
+Test #02 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Unable to create an account on the 'Spotify' platform using Facebook
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: User is logged into an existing and active Facebook account, Spotify-Facebook API not working 
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Click 'Register by Facebook'                          Expected result: The user is not redirected to the Facebook page
+
+End condition: The user is not taken to the Facebook page to register - the account is not created
+
+
+#################
+
+
+Test #03 	Date 20.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Unable to create an account on the 'Spotify' platform using Facebook
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: The user has an inactive Facebook account
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Click 'Register by Facebook'                          Expected result: The user was moved to the Facebook website to confirm registration
+Step 5: Confirm your registration by Facebook                 Expected result: The user was moved to the Spotify website and get information that the account not 
+                                                              created due to inactive Facebook account
+
+End condition: User returns to registration page on Spotify website, account is not created
+
+
+#################
+
+Test #04 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking that the website reads the wrong data correctly 
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: Account registration page exists
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Scroll down and click 'Register'                      Expected result: An error will be returned due to the required fields not being completed
+
+End condition: The account has not been created, the page returns an error due to incorrect data (failure to fill in the required fields)
+
+
+#################
+
+Test #05 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Create an account on the 'Spotify' platform using your email address
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: The user has an e-mail address 
+Test data: 
+Email: test123@test12345.pl
+password: Test123!
+name: Test
+date of birth: 01.01.1990
+gender: I don't want to specify
+I accept Spotify's Terms of Use: Yes
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
+Step 5: Click Captcha                                         Expected result: Captcha has been accepted
+Step 6: Click 'Register'                                      Expected result: The user has been registered and logged into the account created
+
+End condition: Account created, user logged in
+
+
+#################
+
+Test #06 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking that the website reads the wrong data correctly 
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: User has an e-mail address 
+Test data: 
+E-mail: test123@test12345.pl
+password: Test123!
+name: Test
+date of birth: 30.02.1990
+gender: I don't want to specify
+I accept Spotify's Terms of Use: Yes
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Zarejestruj się'                              	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
+Step 5: Click Captcha                                         Expected result: Captcha has been accepted
+Step 6: Click 'Register'                                      Expected result: An error about an invalid date of birth will be returned 
+
+End condition: Account not created, page returns error due to incorrect data (February cannot be 30 days old)
+
+
+#################
 
