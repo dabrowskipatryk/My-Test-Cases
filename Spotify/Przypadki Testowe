@@ -72,10 +72,10 @@ Kroki:
 Krok 1: Otwórz przeglądarkę Google Chrome                   Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/         Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                           Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
-Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezultat: Strona wyrzuci błędy z powodu niewypełnienia wymaganych pól
+Krok 4: Zjedź w dół i kliknij 'Zarejestruj się'             Oczekiwany rezultat: Zwrócony zostanie błąd z powodu niewypełnienia wymaganych pól
 
 
-Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu podania niepoprawnych danych (brak wypełnienia wymaganych pól)
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd z powodu podania niepoprawnych danych (brak wypełnienia wymaganych pól)
 
 
 #################
@@ -131,9 +131,9 @@ Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwan
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione 
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuci błąd o niepoprawnej dacie urodzenia 
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o niepoprawnej dacie urodzenia 
 
-Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu podania niepoprawnych danych (luty nie może mieć 30 dni)
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd z powodu podania niepoprawnych danych (luty nie może mieć 30 dni)
 
 
 #################
@@ -160,9 +160,9 @@ Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwan
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione 
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuci błąd o niepoprawnej dacie urodzenia 
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o niepoprawnej dacie urodzenia 
 
-Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd z powodu podania niepoprawnych danych (użytkownik spełnia wymagań wiekowych)
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd z powodu podania niepoprawnych danych (użytkownik nie spełnia wymagań wiekowych)
 
 
 #################
@@ -189,9 +189,9 @@ Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwan
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione 
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuci błąd o braku zaakceptowania warunków korzystania 
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o braku zaakceptowania warunków korzystania 
 
-Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd o niezaakceptowania warunków korzystania (brak zaznaczonej zgody)
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd o niezaakceptowania warunków korzystania (brak zaznaczonej zgody)
 
 
 #################
@@ -219,9 +219,9 @@ Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
 Krok 5: Zmień dane w polu Potwierdź swój e-mail na: '123@123.pl'     Oczekiwany rezultat: Pole Potwierdź swój e-mail zostało wypełnione nowymi danymi
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuci błąd o różniących się adresach e-mail
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o różniących się adresach e-mail
 
-Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca błąd o podaniu różnych adresów e-mail (drugi adres e-mail nie jest taki sam jak pierwszy)
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca błąd o podaniu różnych adresów e-mail (drugi adres e-mail nie jest taki sam jak pierwszy)
 
 
 #################
@@ -248,10 +248,10 @@ Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwan
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Odczekaj 5 minut                                             Oczekiwany rezultat: Captcha się anulowała
-Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Strona wyrzuca informację o wygaśnięciu Captchy
+Krok 6: Odczekaj 5 minut                                             Oczekiwany rezultat: Captcha została anulowana
+Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócona zostanie informacja o wygaśnięciu Captchy
     
-Warunek wyjściowy: Konto nie zostało utworzone, strona wyrzuca informację o potwierdzeniu, że użytkownik nie jest robotem
+Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca informację o potwierdzeniu, że użytkownik nie jest robotem
 
 
 #################
@@ -278,7 +278,7 @@ Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwan
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
-Krok 6: Odczekaj 5 minut                                             Oczekiwany rezultat: Captcha się anulowała
+Krok 6: Odczekaj 5 minut                                             Oczekiwany rezultat: Captcha została anulowana
 Krok 6: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
     
 Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
@@ -298,7 +298,7 @@ Warunki wstępne: Strona Polityka prywatności' istnieje
 Kroki:
 Krok 1: Otwórz przeglądarkę Google Chrome                         Oczekiwany rezultat: Przeglądarka Google Chrome została otworzona
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/               Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
-Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Użytkownik zostaje przeniesiony na strone https://www.spotify.com/pl/legal/privacy-policy/
+Krok 3: Zjedź w dół strony i kliknij 'Polityka prywatności'       Oczekiwany rezultat: Użytkownik zostaje przeniesiony na stronę https://www.spotify.com/pl/legal/privacy-policy/
 
 Warunek wyjściowy: Strona 'Polityka prywatności' zostaje wyświetlona
 
