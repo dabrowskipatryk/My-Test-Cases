@@ -9,7 +9,7 @@ Prerequisites: The user is logged in with an existing and active Facebook accoun
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
-Step 3: Click 'Register'                                    	Expected result: User is on site https://www.spotify.com/pl/signup
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Click 'Register by Facebook'                          Expected result: The user was moved to the Facebook website to confirm registration
 Step 5: Confirm your registration by Facebook                 Expected result: The user was moved to the Spotify website and was registered and logged into the account created
 
