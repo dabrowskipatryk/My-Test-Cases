@@ -257,3 +257,49 @@ End condition: Account not created, page returns error about invalid e-mail addr
 
 
 #################
+
+
+Test #011 	Date 27.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking that the website will create an account for an existing e-mail address
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: The user has a Spotify account registered with the e-mail address test123@test12345.pl
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
+Step 5: Click Captcha                                         Expected result: Captcha has been accepted
+Step 6: Click 'Register'                                      Expected result: An about the existence of the user and the possibility of logging in will be returned
+
+End condition: The account has not been created, the page returns information about the existence of the user and the possibility of logging in
+
+
+#################
+
+
+Test #012 	Date 27.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking that the the registration page redirects to the login page
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: The user has a Spotify account registered with the e-mail address test123@test12345.pl
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
+Step 5: Click Captcha                                         Expected result: Captcha has been accepted
+Step 6: Click 'Register'                                      Expected result: An about the existence of the user and the possibility of logging in will be returned
+Step 7: Click 'Log in'                                        Expected result: The user was redirected to the login page
+
+End condition: The user was redirected to the login page
+
+
+#################
+
