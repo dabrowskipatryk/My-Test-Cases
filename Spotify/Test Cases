@@ -243,7 +243,7 @@ password: Test123!
 name: Test
 date of birth: 01.01.1990
 gender: I don't want to specify
-I accept Spotify's Terms of Use: No
+I accept Spotify's Terms of Use: Yes
 
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
@@ -273,7 +273,7 @@ Step 2: Go to https://www.spotify.com/pl/                     Expected result: U
 Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
-Step 6: Click 'Register'                                      Expected result: An about the existence of the user and the possibility of logging in will be returned
+Step 6: Click 'Register'                                      Expected result: An error about the existence of the user and the possibility of logging in will be returned
 
 End condition: The account has not been created, the page returns information about the existence of the user and the possibility of logging in
 
@@ -289,13 +289,21 @@ System and browser: Windows 10 / Google Chrome (106.0.5249.119)
 
 Prerequisites: The user has a Spotify account registered with the e-mail address test123@test12345.pl
 
+Test data: 
+e-mail: 地地@test12345.pl
+password: Test123!
+name: Test
+date of birth: 01.01.1990
+gender: I don't want to specify
+I accept Spotify's Terms of Use: Yes
+
 Steps:
 Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
 Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
 Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
 Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
 Step 5: Click Captcha                                         Expected result: Captcha has been accepted
-Step 6: Click 'Register'                                      Expected result: An about the existence of the user and the possibility of logging in will be returned
+Step 6: Click 'Register'                                      Expected result: An error about the existence of the user and the possibility of logging in will be returned
 Step 7: Click 'Log in'                                        Expected result: The user was redirected to the login page
 
 End condition: The user was redirected to the login page
@@ -303,3 +311,122 @@ End condition: The user was redirected to the login page
 
 #################
 
+
+Test #013 	Date 27.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking that the e-mail field in the registration process can contain characters other than Polish
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: The user has an e-mail address with non-Polish characters
+
+Steps:
+Step 1: Open Google Chrome browser                            Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                     Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                      Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Fill in the required fields using test data           Expected result: All required fields have been completed
+Step 5: Click Captcha                                         Expected result: Captcha has been accepted
+Step 6: Click 'Register'                                      Expected result: An error about the invalid email address format will be returned
+
+
+End condition: The account has not been created, the page returns an error about the incorrect format of the e-mail address (e-mail address contains Chinese characters)
+
+
+#################
+
+
+Test #014 	Date 23.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking the operation of cancelled Captcha
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: User has an e-mail address 
+
+Test data: 
+e-mail: test123@test12345.pl
+password: Test123!
+name: Test
+date of birth: 01.01.1990
+gender: I don't want to specify
+I accept Spotify's Terms of Use: Yes
+
+Steps:
+Step 1: Open Google Chrome browser                                                Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                                         Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                                          Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Fill in the required fields using test data                               Expected result: All required fields have been completed
+Step 5: Click Captcha                                                             Expected result: Captcha has been accepted
+Step 6: Wait 5 minutes                                                            Expected result: Captcha was cancelled
+Step 7: Click 'Register'                                                          Expected result: An error about cancelled Captcha will be returned
+            
+End condition: The account has not been created, the page returns a confirmation message that the user is not a robot
+
+
+#################
+
+
+Test #015 	Date 23.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking the operation of Captcha
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: User has an e-mail address 
+
+Test data: 
+e-mail: test123@test12345.pl
+password: Test123!
+name: Test
+date of birth: 01.01.1990
+gender: I don't want to specify
+I accept Spotify's Terms of Use: Yes
+
+Steps:
+Step 1: Open Google Chrome browser                                                Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                                         Expected result: User is on site www.spotify.com/pl/
+Step 3: Click 'Register'                                                          Expected result: User is on site https://www.spotify.com/pl/signup
+Step 4: Fill in the required fields using test data                               Expected result: All required fields have been completed
+Step 5: Click Captcha                                                             Expected result: Captcha has been accepted
+Step 6: Wait 5 minutes                                                            Expected result: Captcha was cancelled
+Step 7: Click Captcha                                                             Expected result: Captcha has been accepted
+Step 8: Click 'Register'                                                          Expected result: The user has been registered and logged into the account created
+            
+End condition: Account created, user logged in
+
+
+#################
+
+Test #16 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking the visibility of the 'Privacy Policy' page
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: 'Privacy Policy' page exists
+
+Steps:
+Step 1: Open Google Chrome browser                                                Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                                         Expected result: User is on site www.spotify.com/pl/
+Step 3: Scroll down and click 'Privacy Policy'                                    Expected result: User is taken to https://www.spotify.com/pl/legal/privacy-policy/
+
+End condition: The 'Privacy Policy' page is displayed
+
+
+#################
+
+
+Test #17 	Date 11.10.2022 	Compiled by Patryk Dąbrowski
+
+Name: Checking the operation of the 'Privacy Policy' button from the footer
+
+System and browser: Windows 10 / Google Chrome (106.0.5249.119)
+
+Prerequisites: In the footer there is a 'Privacy Policy' button, 'Privacy Policy' page exists
+
+Steps:
+Step 1: Open Google Chrome browser                                                Expected result: The Google Chrome browser has been opened
+Step 2: Go to https://www.spotify.com/pl/                                         Expected result: User is on site www.spotify.com/pl/
+Step 3: Scroll down and click 'Privacy Policy'                                    Expected result: Clicking on the 'Privacy Policy' button by the user does not activate any action
+
+End condition: The 'Privacy Policy' button does not work properly (does not activate any action)
