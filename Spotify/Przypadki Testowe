@@ -378,7 +378,7 @@ Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
 Krok 6: Odczekaj 5 minut                                             Oczekiwany rezultat: Captcha została anulowana
-Krok 6: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócona zostanie informacja o wygaśnięciu Captchy
+Krok 7: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócona zostanie informacja o wygaśnięciu Captchy
     
 Warunek wyjściowy: Konto nie zostało utworzone, strona zwraca informację o potwierdzeniu, że użytkownik nie jest robotem
 
@@ -409,7 +409,7 @@ Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
 Krok 6: Odczekaj 5 minut                                             Oczekiwany rezultat: Captcha została anulowana
-Krok 6: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 7: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
     
 Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
 
