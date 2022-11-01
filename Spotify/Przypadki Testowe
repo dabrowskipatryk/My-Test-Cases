@@ -224,7 +224,7 @@ Krok 1: Otwórz przeglądarkę Google Chrome                            Oczekiwa
 Krok 2: Wejdź na stronę https://www.spotify.com/pl/                  Oczekiwany rezultat: Użytkownik jest na stronie www.spotify.com/pl/
 Krok 3: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik jest na stronie https://www.spotify.com/pl/signup
 Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwany rezultat: Wszystkie wymagane pola zostały wypełnione
-Krok 5: Zmień dane w polu Potwierdź swój e-mail na: '123@123.pl'     Oczekiwany rezultat: Pole Potwierdź swój e-mail zostało wypełnione nowymi danymi
+Krok 5: Zmień dane w polu 'Potwierdź swój e-mail' na: '123@123.pl'     Oczekiwany rezultat: Pole Potwierdź swój e-mail zostało wypełnione nowymi danymi
 Krok 6: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
 Krok 7: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Zwrócony zostanie błąd o różniących się adresach e-mail
 
