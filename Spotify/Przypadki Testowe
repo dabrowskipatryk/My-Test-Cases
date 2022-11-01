@@ -410,6 +410,7 @@ Krok 4: Wypełnij wymagane pola używając danych testowych             Oczekiwa
 Krok 5: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
 Krok 6: Odczekaj 5 minut                                             Oczekiwany rezultat: Captcha została anulowana
 Krok 7: Kliknij Captche                                              Oczekiwany rezultat: Captcha została zaakceptowana
+Krok 8: Kliknij 'Zarejestruj się'                                    Oczekiwany rezultat: Użytkownik został zarejestrowany i zalogowany na utworzone konto
     
 Warunek wyjściowy: Konto zostało utworzone, użytkownik zalogowany na konto
 
